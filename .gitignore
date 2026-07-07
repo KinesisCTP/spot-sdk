@@ -1,0 +1,8 @@
+.venv/
+.python-deps/
+__pycache__/
+*.py[cod]
+
+# Local robot connection profiles. Keep real credentials out of git.
+.spot/*.env
+!.spot/*.env.example
