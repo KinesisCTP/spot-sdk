@@ -1,7 +1,12 @@
 .venv/
 .python-deps/
+.kinesis-runtime/
 __pycache__/
 *.py[cod]
+
+# Local GraphNav maps and backups can be large and may contain site data.
+maps/*
+!maps/README.md
 
 # Local robot connection profiles. Keep real credentials out of git.
 .spot/*.env
